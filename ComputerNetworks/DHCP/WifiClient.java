@@ -1,4 +1,4 @@
-package DHCP;
+
 import java.io.InputStream;
 import java.net.*;
 import java.util.Scanner;
