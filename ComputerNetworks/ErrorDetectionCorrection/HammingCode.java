@@ -38,12 +38,14 @@ public class HammingCode{
     }
 
     static void print(int a[]){
-        for(int i=0;i<4;i++){
-            for(int j=0;j<4;j++){
-                System.out.print(a[i+j]+" ");
+        for(int i=0;i<16;i++){
+            if(i%4==0){
+                System.out.println("");
             }
-            System.out.println();
+            System.out.print(a[i]+" ");
         }
+        System.out.println("");
+
     }
 
     static int checkParity(int a[]){
